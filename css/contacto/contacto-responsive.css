@@ -79,6 +79,43 @@
     right: 150%;
   }
 
+
+  .boxTitleContacto {
+    width: 100%;
+    height: auto;
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .etiquetaContacto {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid var(--primerColor);
+    border-left: 2px solid var(--primerColor);
+    background-color: var(--texColor-two);
+    font-weight: lighter;
+    font-size: medium;
+    border-radius: 12px;
+    box-shadow: -7px 8px 10px 7px var(--primerColor);
+    transition: 0.5s all;
+    gap: 10px;
+  }
+
+  .etiquetaContacto h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .etiquetaContacto i {
+    font-size: 1.6rem;
+  }
+
 }
 
 /* tablets */
@@ -89,7 +126,7 @@
 }
 
 /* pantallas de mayor resolucion */
-@media only screen and (min-width: 1021px) and (max-width: 3000px){
+@media only screen and (min-width: 1021px) and (max-width: 3000px) {
   nav a {
     font-size: 1.6dvb;
   }

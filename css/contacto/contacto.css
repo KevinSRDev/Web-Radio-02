@@ -152,6 +152,43 @@ main {
   color: var(--segundoColor);
   font-size: 8dvb;
   font-weight: bold;
+  background-image: url(../../src/img/contacto/fondo-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.boxTitleContacto{
+  width: 100%;
+  height: auto;
+  padding: 50px 100px 20px 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.etiquetaContacto {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid var(--primerColor);
+  border-left: 2px solid var(--primerColor);
+  background-color: var(--texColor-two);
+  font-weight: lighter;
+  font-size: medium;
+  border-radius: 12px;
+  box-shadow: -7px 8px 10px 7px var(--primerColor);
+  transition: 0.5s all;
+  gap: 10px;
+}
+.etiquetaContacto h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.etiquetaContacto i{
+  font-size: 2rem;
 }
 
 .boxGlobal {
@@ -161,16 +198,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--fondo-welcome);
-  background-image: url(../../src/img/construccion.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
-.boxAlert {
-  background-color: var(--white);
-  border: 1px solid var(--primerColor);
+.boxcontacto{
+  border: 2px solid var(--segundoColor);
   border-radius: 12px;
-  font-size: 5dvb;
+  padding: 10px;
+  background-color: var(--white);
+  font-size: 6dvh;
+  font-weight: 500;
 }
