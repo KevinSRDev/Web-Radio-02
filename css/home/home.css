@@ -235,7 +235,7 @@ nav a:hover{
   height: auto;
   padding: 20px;
   border-radius: 50%;
-  background: var(--white-two);
+  background: var(--white);
 }
 
 .boxImgInicial img {
@@ -696,11 +696,20 @@ nav a:hover{
 /* Pide de pagina con respectiva información */
 footer {
   width: 100%;
-  height: 150px;
+  height: auto;
+  padding: 20px;
   background-color: var(--bgNav);
   color: var(--texColor-two);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+}
+.derechosA{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
