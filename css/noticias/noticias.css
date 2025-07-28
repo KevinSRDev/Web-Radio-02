@@ -2,11 +2,11 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
 
 :root {
-  --primerColor: #D96F32;
-  --segundoColor: #273F4F;
+  --primerColor: #39a900;
+  --segundoColor: #00304d;
   --textColor-one: black;
   --texColor-two: white;
-  --fondo-welcome: #d1a980c6;
+  --fondo-welcome: #002f4dae;
   --white: #fff;
   --white-two: #f3e9dc9b;
   --bgNav: #555879;
@@ -24,7 +24,7 @@ header {
   width: 100%;
   height: auto;
   position: absolute;
-  top: 50%;
+  top: 20%;
   right: 0;
 }
 
