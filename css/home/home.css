@@ -85,7 +85,8 @@ nav li {
   padding: 5px;
   gap: 10px;
 }
-.active-link{
+
+.active-link {
   background-color: var(--primerColor);
 }
 
@@ -99,7 +100,8 @@ nav a {
   height: 40px;
   color: var(--white);
 }
-nav a:hover{
+
+nav a:hover {
   background-color: var(--primerColor);
   border-radius: 12px;
 }
@@ -115,9 +117,11 @@ nav a:hover{
   white-space: nowrap;
   z-index: 1;
 }
-#miIcono{
+
+#miIcono {
   font-size: 1rem;
 }
+
 #miIcono:hover+.texto-oculto {
   display: flex;
   right: 35px;
@@ -705,7 +709,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.derechosA{
+
+.derechosA {
   width: 100%;
   height: 150px;
   display: flex;
@@ -713,4 +718,15 @@ footer {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
+.bocAutores{
+  width: auto;
+  height: auto;
+}
+
+.bocAutores p {
+  width: auto;
+  text-align: start;
+  height: auto;
+  padding: 10px;
 }

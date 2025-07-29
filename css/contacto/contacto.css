@@ -221,7 +221,8 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.derechosA{
+
+.derechosA {
   width: 100%;
   height: 150px;
   display: flex;
@@ -229,4 +230,15 @@ footer {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
+.bocAutores{
+  width: auto;
+  height: auto;
+}
+
+.bocAutores p {
+  width: auto;
+  text-align: start;
+  height: auto;
+  padding: 10px;
 }
