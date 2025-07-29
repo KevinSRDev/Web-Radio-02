@@ -209,3 +209,24 @@ main {
   font-size: 6dvh;
   font-weight: 500;
 }
+
+/* Pide de pagina con respectiva información */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--bgNav);
+  color: var(--texColor-two);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.derechosA{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

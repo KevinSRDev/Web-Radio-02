@@ -10,6 +10,7 @@
   --white: #fff;
   --white-two: #f3e9dc9b;
   --bgNav: #555879;
+  --shadow: rgba(111, 111, 111, 0.8);
 }
 
 * {
@@ -147,7 +148,7 @@ nav a:hover {
   font-weight: lighter;
   font-size: medium;
   border-radius: 12px;
-  box-shadow: -7px 8px 10px 7px gray;
+  box-shadow: -7px 8px 10px 7px var(--shadow);
   transition: 0.5s all;
 }
 
@@ -182,7 +183,7 @@ nav a:hover {
 .boxNews-global {
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -199,7 +200,7 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   border-radius: 12px;
-  box-shadow: 10px 5px 15px 5px gray;
+  box-shadow: 10px 5px 15px 5px var(--shadow);
 }
 
 .boxImgCardNew {
@@ -220,7 +221,7 @@ nav a:hover {
 
 .boxdownCard {
   width: 100%;
-  height: 100%;
+  height: auto;
   padding: 10px;
   display: flex;
   align-items: start;
@@ -264,4 +265,25 @@ nav a:hover {
   font-weight: bolder;
   color: var(--texColor-two);
   background-color: var(--primerColor);
+}
+
+/* Pide de pagina con respectiva información */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--bgNav);
+  color: var(--texColor-two);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.derechosA{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }

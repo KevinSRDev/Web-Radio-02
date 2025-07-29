@@ -208,7 +208,7 @@ main {
   border-radius: 12px;
   display: grid;
   grid-template-columns:  30% 30% 30%;
-  grid-template-rows: auto;
+  grid-template-rows:  40%x;
   gap: 10px;
 }
 
@@ -220,6 +220,7 @@ main {
 .titleEvent{
   width: 100%;
   height: auto;
+  padding: 10px;
   text-align: center;
   color: var(--white);
   background-color: var(--segundoColor);
@@ -242,11 +243,40 @@ main {
 .boxInfoText{
   width: 100%;
   height: auto;
-  padding: 10px;
+  padding: 15px;
   color: var(--white);
+}
+.textInfo{
+  font-size: medium;
 }
 .dateEvent{
   border-top: 2px solid var(--primerColor);
   margin-top: 10px;
   text-align: end;
+}
+
+.blanco{
+  width: 100%;
+  height: 200px;
+}
+
+/* Pide de pagina con respectiva información */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: var(--bgNav);
+  color: var(--texColor-two);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.derechosA{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
